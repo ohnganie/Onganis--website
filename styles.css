@@ -125,7 +125,7 @@ margin-bottom:50px;
 	margin-right:100%;
 }
 .contact{
-	background-color:grey;
+	background-color:black;
 	text-align:center;
 	text-decoration:none;
 	color:white;
@@ -149,7 +149,7 @@ margin-bottom:50px;
 }
 .word{
 	text-align:center;
-	margin-top:400px;
+	margin-top:300px;
 	background-color:black;
 }
 .news{
@@ -193,6 +193,32 @@ div.desc {
 	background-color:black;
 	color:black;
 	float:left;
-	margin-bottom:400px;
+	margin-bottom:100px;
 }
-	
+.victim{
+	background-color:black;
+	margin-top:-60px;
+	margin-bottom:20px;
+	text-decoration:none;
+	text-align:center;
+	underline:none;
+	padding:20px;
+}
+
+.talent{
+	width:5%;
+	height:5%;
+	object-position: right top;
+}
+.galleries{
+	font-family: 'Tourney', cursive;
+	color:white;
+	background-color:black;
+	font-family: 'Tourney', cursive;
+	text-align:center;
+	font-family:'Pattaya', sans-serif;
+}
+.beautiful{
+	height:220px;
+	width:200px:
+}
