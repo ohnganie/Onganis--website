@@ -4,12 +4,12 @@
 <link rel="stylesheet" href="styles.css">
 <link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
 </head>
-<img  class="beautiful" src="beautiful.jpg" alt="beautiful" title="You are beautiful">
+<img  class="beautiful" src="pictures/beautiful.jpg" alt="beautiful" title="You are beautiful">
 <body>
 <main>
 <div class="body">
    <div class="navbar">
-    <img src="logo.jpg" alt="logo" class="logo">
+    <img src="pictures/logo.jpg" alt="logo" class="logo">
 	<h3 class="logotext">Girls with thoughts...</h3>
 	<nav>
 	<ul>
@@ -20,21 +20,23 @@
 	<li><a href="contactus.html">CONTACT US</a></li>
 	</ul>
 	</nav>
-	<img src="menu.jpg" alt="menu" class="menu-icon">
+	<img src="pictures/menu.jpg" alt="menu" class="menu-icon">
 </div>
+<form>
 <div class="login">
-  <input type="text" placeholder="Email adress">
-  <input type="text" placeholder="Password">
+  <input type="text" placeholder="Email adress" required>
+  <input type="text" placeholder="Password" required>
   <input class="submit" type="submit" value="Login">
   <input class="submit" type="submit" value="Sign Up">
   </div>
+  </form>
   <br>
   <br>
   <br>
   <br>
  <section class="news"> 
   <h1 class="white">News</h1>
-<img src="news.jpg" alt="anelisa" title="anelisa khoza">
+<img src="pictures/news.jpg" alt="anelisa" title="anelisa khoza">
 <h2>CONGRATULATIONS!!!</h2><br><br>
 <p>Hello everyone!My name is Anelisa cotzee.<br>
  I am a second year student at the university of free state.
@@ -50,18 +52,18 @@
  <br>
  <hr>
  
- <form class="letters">
+ <form class="letters" method="post" action="mailto:ohnganie@gmail.com" > 
  <h2>Newsletters</h2>
  <br>
  <br>
   <label for="fname">first name:</label>
-  <input type="text" placeholder="first name"><br><br><br>
+  <input type="text" placeholder="first name" required><br><br><br>
   <label for="lname">Last name:</label>
-  <input type="text" placeholder="last name"><br><br><br>
+  <input type="text" placeholder="last name" required><br><br><br>
   <label for="fname">email adress:</label>
-  <input type="text" placeholder="enter email"><br><br><br>
+  <input type="text" placeholder="enter email" required><br><br>
   <br>
-  <input type="submit" value="Submit"><br>
+  <input class="submit" type="submit" value="Submit"><br>
   <p>
   By clicking submit you allow us to send you monthly newsletters.
   </p>
@@ -70,7 +72,7 @@
 <hr>
 <footer class="footer">
 <a href="https://www.youtube.com/">
-<img src="youtube.jpg" alt="youtubers" title="Go to you tube page"></a><br>
+<img src="pictures/youtube.jpg" alt="youtubers" title="Go to you tube page"></a><br>
 
 Copyright 1979-2021|Pretty Girl Thoughts|All Rights Reserved|Created by O Magwala
 
